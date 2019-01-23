@@ -1,0 +1,37 @@
+header{
+	width: 100%;
+	position: sticky;
+	top: 0;
+}
+
+header h1{
+	float: left;
+	margin: 0px;
+	padding-left: 5%;
+	width: 60%;
+	line-height: 60px;
+	box-sizing: border-box;
+	letter-spacing: 1px;
+}
+
+header nav{
+	float: right;
+	padding-right: 5%;
+	width: 40%
+	line-height:50px;
+	box-sizing: border-box;
+}
+
+#contenedor{
+	background-color:#5b7989;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#contenedor h1{
+	color: white;
+	text-shadow: 2px 2px #02010a;
+}
+
+#enlaces nav{
+	float: right;
+}
