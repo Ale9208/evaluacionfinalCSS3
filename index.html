@@ -9,27 +9,33 @@
 <body>
 	<header id="contenedor">
 		<h1>Comenzando con la fotografía</h1>
-			<div id="enlaces">
-				<nav>
-					<a href="index.html">Inicio</a>
-					<a href="paisajes/paisajes.html">Paisajes</a>
-					<a href="retratos/retratos.html">Retratos</a>
-				</nav>
-			</div>
+			<nav id="enlaces">
+				<a class="enlace1" href="index.html">Inicio</a>
+				<a class="enlace2" href="paisajes/paisajes.html">Paisajes</a>
+				<a class="enlace3" href="retratos/retratos.html">Retratos</a>
+			</nav>	
 	</header>
 	<section id="imagenes_inicio">
-		<figure class="imagen1" >
-			<img src="imagenes/imagen1.jpg">
-			<figcaption>Captura al mundo</figcaption>
-		</figure>
-		<figure class="imagen2" >
-			<img src="imagenes/imagen2.jpg">
-			<figcaption>Paisajes</figcaption>
-		</figure>
-		<figure class="imagen3" >
-			<img src="imagenes/imagen3.jpg">
-			<figcaption>Retratos</figcaption>
-		</figure>
+		<div id="seccion1">
+			<figure class="imagen1" >
+				<img src="imagenes/imagen1.jpg">
+				<figcaption>Captura al mundo</figcaption>
+			</figure>
+		</div>
+		<div id="seccion2">
+			<a href="paisajes/paisajes.html">
+				<figure class="imagen2" >
+					<img src="imagenes/imagen2.jpg">
+					<figcaption>Paisajes</figcaption>
+				</figure>
+			</a>
+			<a href="retratos/retratos.html">
+				<figure class="imagen3" >
+					<img src="imagenes/imagen3.jpg">
+					<figcaption>Retratos</figcaption>
+				</figure>
+			</a>
+		</div>
 	</section>
 </body>
 </html>
