@@ -60,9 +60,30 @@ a{
 .imagen2 img:hover{
 	transform: rotate(10deg);
 	animation-fill-mode: forwards;
+
 }
 
-.imagen2 img{
-	box-shadow: #82c3a6;
+.imagen2 img, .imagen3 img{
 	border: 2px solid black;
+	box-shadow: 2px 2px #82c3a6;
+}
+
+.imagen3 img:hover{
+	transform: translate(20px, -5px);
+
+}
+
+footer{
+	background-color: #C6d5c5;
+	display: flex;
+	border-radius: 0px 0px 10px 10px
+}
+
+footer div{
+	width: 25%;
+	padding: 10px;
+}
+
+footer div h2{
+	vertical-align: text-top;
 }
